@@ -1,10 +1,10 @@
 app:
-    name: Hello Node
-    code: hellonode
+    name: Node Test
+    code: nodetest
     notify: svengathattil@ecloudcontrol.com
 
 build:
-    version: 0.1
+    version: 0.2
     env: DEV
     build_file: none
     output_files: output/*.zip
