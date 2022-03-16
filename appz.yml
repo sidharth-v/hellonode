@@ -5,14 +5,14 @@ app:
 
 build:
     version: 0.1
-    env: DEV
+    env: QA
     build_file: none
     output_files: output/*.zip
     image_template: node-14.16
 
 
 deploy:
-    context: sidharth-v/DEV
+    context: sidharth-v/QA
     oidc: enable
     ingress: service
     replicas: 1
