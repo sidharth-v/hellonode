@@ -13,8 +13,8 @@ build:
 
 deploy:
     context: sidharth-v/DEV
-    oidc: enable
-    ingress: service
+    #oidc: enable
+    #ingress: service
     replicas: 1
     port:
     - 8080
