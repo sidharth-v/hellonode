@@ -1,6 +1,6 @@
 app:
-    name: Hello Node
-    code: hellonode
+    name: kunjumon
+    code: kunjumon
     notify: svengathattil@ecloudcontrol.com
 
 build:
