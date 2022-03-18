@@ -1,6 +1,6 @@
 app:
-    name: kunjumon
-    code: kunjumon
+    name: hntest
+    code: hntest
     notify: svengathattil@ecloudcontrol.com
 
 build:
