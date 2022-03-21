@@ -1,10 +1,10 @@
 app:
-    name: hntest
-    code: hntest
+    name: hnkbfc
+    code: hnkbfc
     notify: svengathattil@ecloudcontrol.com
 
 build:
-    version: 0.12
+    version: 0.123
     env: DEV
     build_file: none
     output_files: output/*.zip
