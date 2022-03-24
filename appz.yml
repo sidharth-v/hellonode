@@ -13,7 +13,7 @@ build:
 
 deploy:
     context: sidharth-v/DEV
-    oidc: enable
+    oidc: disable
     ingress: service
     replicas: 1
     port:
