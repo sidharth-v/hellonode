@@ -1,10 +1,10 @@
 app:
-    name: Hello Node
-    code: hellonode
+    name: kbfc
+    code: kbfc
     notify: svengathattil@ecloudcontrol.com
 
 build:
-    version: 0.1
+    version: 0.123
     env: DEV
     build_file: none
     output_files: output/*.zip
@@ -13,8 +13,6 @@ build:
 
 deploy:
     context: sidharth-v/DEV
-    oidc: enable
-    ingress: service
     replicas: 1
     port:
     - 8080
