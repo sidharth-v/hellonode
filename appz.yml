@@ -1,6 +1,6 @@
 app:
-    name: kbfc
-    code: kbfc
+    name: HelloNode
+    code: HelloNode
     notify: svengathattil@ecloudcontrol.com
 
 build:
